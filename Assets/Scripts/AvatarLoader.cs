@@ -58,7 +58,7 @@ public class AvatarLoader : MonoBehaviour
         // Anton - 547cf50aa737a7ea70b73939
         // Christina - 6362d08c9a3562881d71a37c
         
-        userAvatar = await _api.GetUserAvatarAsset("54d74a21ab462aac88f37820");
+        userAvatar = await _api.GetUserAvatarAsset("588524808b9ff40d2423007d");
         Load(userAvatar);
     }
 
@@ -80,6 +80,8 @@ public class AvatarLoader : MonoBehaviour
             await LoadAvatarAsset(assetSlot, skinTex);
         }
         
+        HandleHide();
+        
         animator.enabled = true;
 
         var hairPart = _parts.Find(p => p.asset.slot == (int)AssetSlot.Hair);
@@ -91,6 +93,20 @@ public class AvatarLoader : MonoBehaviour
         var blendShapeIndex = hairPart.skinnedMeshRenderer.sharedMesh.GetBlendShapeIndex(hatPart.asset.morphTarget);
         if (blendShapeIndex < 0) return;
         hairPart.skinnedMeshRenderer.SetBlendShapeWeight(0, 1);
+    }
+
+    private void HandleHide()
+    {
+        foreach (var part in _parts)
+        {
+            if (part.asset.hides.Length <= 0) continue;
+            foreach (var hide in part.asset.hides)
+            {
+                var slot = int.Parse(hide);
+                var partToHide = _parts.Find(p => p.asset.slot == slot);
+                partToHide.skinnedMeshRenderer.gameObject.SetActive(false);
+            }
+        }
     }
 
     private void LoadHead(Texture skin, Texture eyes, Texture mouth)
