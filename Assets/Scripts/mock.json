@@ -1,0 +1,235 @@
+﻿{
+  "equipped": [
+    {
+      "id": "AFRODREADBASIC_LIGHTBROWN",
+      "slot": 1,
+      "hides": [],
+      "group": "",
+      "morphTarget": "",
+      "type": "AFRODREADBASIC",
+      "variant": "LIGHTBROWN",
+      "mesh": "",
+      "meshGlb": "mesh/66273ea101604ed4b2a46660f2000f78.glb",
+      "texture": "texture/7253ccf0023e460d75075b31437eac9b.webp",
+      "icon": "avatarasseticon/65dcd57adfad2f7715f7798ec99414a8.png",
+      "priority": 6,
+      "unlocked": true,
+      "isEliteExclusive": false,
+      "requirements": [],
+      "name": "shop.title-afrodreadbasic-lightbrown",
+      "description": "shop.description-afrodreadbasic-lightbrown",
+      "rarity": 1
+    },
+    {
+      "id": "BASEBALLPLAYERCAP_BASECOLOR",
+      "slot": 7,
+      "hides": [],
+      "group": "",
+      "morphTarget": "Hat01",
+      "type": "BASEBALLPLAYERCAP",
+      "variant": "BASECOLOR",
+      "mesh": "",
+      "meshGlb": "mesh/c4047073b1613b7e376276e90dff5433.glb",
+      "texture": "texture/657354714bf3e2dc80892415deb926ff.webp",
+      "icon": "avatarasseticon/9a10d6bd3c3a1c07f5e2def58a34ceb6.webp",
+      "priority": 3,
+      "unlocked": true,
+      "isEliteExclusive": false,
+      "requirements": [
+        {
+          "type": 2,
+          "conditions": [
+            {
+              "type": 1,
+              "value": 113
+            },
+            {
+              "type": 2,
+              "value": true
+            }
+          ]
+        }
+      ],
+      "name": "shop.title-baseballplayercap-basecolor",
+      "description": "shop.description-baseballplayercap-basecolor",
+      "rarity": 4
+    },
+    {
+      "id": "DANCE_WIN",
+      "slot": 12,
+      "hides": [],
+      "group": "",
+      "morphTarget": "",
+      "type": "DANCE",
+      "variant": "WIN",
+      "mesh": "",
+      "meshGlb": "mesh/296f912e1bb1154d5d2973225ba4706a.glb",
+      "texture": "",
+      "icon": "avatarasseticon/25ab0b11735445da98cee31065f45765.webp",
+      "priority": 0,
+      "unlocked": true,
+      "isEliteExclusive": false,
+      "requirements": [],
+      "name": "shop.win-anim-dance-title",
+      "description": "shop.win-anim-dance-description",
+      "rarity": 4
+    },
+    {
+      "id": "DEFAULT_BORDER_1",
+      "slot": 22,
+      "hides": [],
+      "group": "",
+      "morphTarget": "",
+      "type": "DEFAULT_BORDER",
+      "variant": "1",
+      "mesh": "",
+      "meshGlb": "",
+      "texture": "texture/7653d5739c5a383203db2744a18ced0c.webp",
+      "icon": "avatarasseticon/78c04b52c44c7521637746c87f208c7a.webp",
+      "priority": 19,
+      "unlocked": true,
+      "isEliteExclusive": false,
+      "requirements": [
+        {
+          "type": 2,
+          "conditions": [
+            {
+              "type": 1,
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "name": "shop.title-default-border_1",
+      "description": "shop.description-default-border_1",
+      "rarity": 1
+    },
+    {
+      "id": "FLATBASIC_BLACK",
+      "slot": 6,
+      "hides": [],
+      "group": "",
+      "morphTarget": "",
+      "type": "FLATBASIC",
+      "variant": "BLACK",
+      "mesh": "",
+      "meshGlb": "",
+      "texture": "texture/c9b0684af36e3518373f2466eb774ff7.webp",
+      "icon": "avatarasseticon/0b5f274b434d2d0efa1f06e36168ff17.png",
+      "priority": 0,
+      "unlocked": true,
+      "isEliteExclusive": false,
+      "requirements": [],
+      "name": "shop.title-flatbasic-black",
+      "description": "shop.description-flatbasic-black",
+      "rarity": 1
+    },
+    {
+      "id": "HOCKEYPLAYERPANTS_BASECOLOR",
+      "slot": 3,
+      "hides": [],
+      "group": "",
+      "morphTarget": "",
+      "type": "HOCKEYPLAYERPANTS",
+      "variant": "BASECOLOR",
+      "mesh": "",
+      "meshGlb": "mesh/468b7db338c970149e429605d6b69293.glb",
+      "texture": "texture/e3721d40f1ed6b8451af72c00efa73d5.webp",
+      "icon": "avatarasseticon/7542009dbb0aba1cb0d38cb6e832df14.webp",
+      "priority": 3,
+      "unlocked": true,
+      "isEliteExclusive": false,
+      "requirements": [],
+      "name": "shop.title-hockeyplayerpants-basecolor",
+      "description": "shop.description-hockeyplayerpants-basecolor",
+      "rarity": 4
+    },
+    {
+      "id": "PRISONERSHIRT_ORANGE",
+      "slot": 2,
+      "hides": [],
+      "group": "Prisoner",
+      "morphTarget": "",
+      "type": "PRISONERSHIRT",
+      "variant": "ORANGE",
+      "mesh": "",
+      "meshGlb": "mesh/74b9b2d34e60f4809bbf1b9cf84ce5c1.glb",
+      "texture": "texture/d27747206fd3e2f8f337c7aa48ba3c59.webp",
+      "icon": "avatarasseticon/a5bfe28ccb97a377bbe89ff26c9b58bc.webp",
+      "priority": 12,
+      "unlocked": true,
+      "isEliteExclusive": false,
+      "requirements": [],
+      "name": "shop.title-prisonershirt-orange",
+      "description": "shop.description-prisonershirt-orange",
+      "rarity": 2
+    },
+    {
+      "id": "SKINBASIC_SENNA",
+      "slot": 8,
+      "hides": [],
+      "group": "",
+      "morphTarget": "",
+      "type": "SKINBASIC",
+      "variant": "SENNA",
+      "mesh": "",
+      "meshGlb": "",
+      "texture": "texture/a7aef1d05ae6e60028d252dc33e7c2b7.webp",
+      "icon": "avatarasseticon/516aaa951a758d9b35fb3a6ee028a414.png",
+      "priority": 0,
+      "unlocked": true,
+      "isEliteExclusive": false,
+      "requirements": [],
+      "name": "shop.title-skinbasic-senna",
+      "description": "shop.description-skinbasic-senna",
+      "rarity": 1
+    },
+    {
+      "id": "THICKBROWSBASIC_BLACK",
+      "slot": 5,
+      "hides": [],
+      "group": "",
+      "morphTarget": "",
+      "type": "THICKBROWSBASIC",
+      "variant": "BLACK",
+      "mesh": "",
+      "meshGlb": "",
+      "texture": "texture/95e7d1a9c260849687174b2379f430e2.webp",
+      "icon": "avatarasseticon/1a3d0865ff56ca11d4de0a174afbdd70.png",
+      "priority": 0,
+      "unlocked": true,
+      "isEliteExclusive": false,
+      "requirements": [],
+      "name": "shop.title-thickbrowsbasic-black",
+      "description": "shop.description-thickbrowsbasic-black",
+      "rarity": 1
+    }
+  ],
+  "equippedBadge": {
+    "id": "9BeLnWdGziWwUnJNt0tRK7H6vDD7KBRd",
+    "name": "Ace",
+    "hint": "Win ranked duels flawlessly ",
+    "description": "Win a ranked duel flawlessly",
+    "imagePath": "badge/ce53190308ae817acbf032417380a18f.png",
+    "hasLevels": true,
+    "category": "Special",
+    "applyRounding": true,
+    "level": 1,
+    "levelImage": {
+      "diffuseMapPath": "badge/ce53190308ae817acbf032417380a18f.png",
+      "depthMapPath": "badge/541943c3ffe023935c7e96aca237ebcf.png"
+    },
+    "awarded": "2023-08-18T18:15:32.6590000Z",
+    "progression": {
+      "current": 7,
+      "target": 10
+    },
+    "totalLevels": 6,
+    "isSunsetted": false,
+    "nextLevelDescription": "Win 10 ranked duels flawlessly",
+    "nextLevelImage": {
+      "diffuseMapPath": "badge/2dedb4992fe130cec47f4d1418e03aac.png",
+      "depthMapPath": "badge/5534143828e4607c722bd26d716fa3bd.png"
+    }
+  }
+}

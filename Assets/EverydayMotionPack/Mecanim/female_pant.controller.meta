@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 42355c9c6bda5074bbedb09d3e5fb01e
+timeCreated: 1525922962
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115067
+  packageName: Everyday Motion Pack Free
+  packageVersion: 1.0
+  assetPath: Assets/EverydayMotionPack/Mecanim/female_pant.controller
+  uploadId: 252845
